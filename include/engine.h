@@ -7,6 +7,7 @@
 
 class Chess {
 public:
+    // Default constructor: assumes default 8x8 board
     Chess();
     ~Chess();
 private:
