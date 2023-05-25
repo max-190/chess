@@ -11,7 +11,7 @@ public:
     Piece(bool nwIsWhite);
     virtual ~Piece();
     
-    virtual std::vector<move> getLegalMoves() = 0;
+    virtual std::vector<Move> getLegalMoves() = 0;
 
     bool isWhite;
     
@@ -20,37 +20,37 @@ public:
 class Pawn: public Piece {
 public:
 
-    std::vector<move> getLegalMoves();
+    std::vector<Move> getLegalMoves();
 };
 
 class Knight: public Piece {
 public:
 
-    std::vector<move> getLegalMoves();
+    std::vector<Move> getLegalMoves();
 };
 
 class Bishop: public Piece {
 public:
 
-    std::vector<move> getLegalMoves();
+    std::vector<Move> getLegalMoves();
 };
 
 class Rook: public Piece {
 public:
 
-    std::vector<move> getLegalMoves();
+    std::vector<Move> getLegalMoves();
 };
 
 class Queen: public Piece {
 public:
 
-    std::vector<move> getLegalMoves();
+    std::vector<Move> getLegalMoves();
 };
 
 class King: public Piece {
 public:
 
-    std::vector<move> getLegalMoves();
+    std::vector<Move> getLegalMoves();
 };
 
 #endif

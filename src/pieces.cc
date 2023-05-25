@@ -4,27 +4,27 @@ Piece::Piece(bool nwIsWhite) {
     isWhite = nwIsWhite;
 }
 
-std::vector<move> Pawn::getLegalMoves() {
+std::vector<Move> Pawn::getLegalMoves() {
 
 }
 
-std::vector<move> Knight::getLegalMoves() {
+std::vector<Move> Knight::getLegalMoves() {
     
 }
 
-std::vector<move> Bishop::getLegalMoves() {
+std::vector<Move> Bishop::getLegalMoves() {
     
 }
 
-std::vector<move> Rook::getLegalMoves() {
+std::vector<Move> Rook::getLegalMoves() {
     
 }
 
-std::vector<move> Queen::getLegalMoves() {
+std::vector<Move> Queen::getLegalMoves() {
     
 }
 
-std::vector<move> King::getLegalMoves() {
+std::vector<Move> King::getLegalMoves() {
     
 }
 

@@ -3,7 +3,7 @@
 
 #define DIMENTION 8
 
-struct move {
+struct Move {
     int from[2];
     int to[2];
 };
