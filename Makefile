@@ -3,7 +3,7 @@ SRC_DIR  = src
 SOURCES  = $(sort $(shell find $(SRC_DIR) -name '*.cc'))
 OBJECTS  = $(SOURCES:.cc=.o)
 DEPS     = $(OBJECTS:.o=.d)
-TARGET   = chess
+TARGET   = stack
 CXX      = g++
 CFLAGS   = -Wall -Wextra -Wpedantic -std=c++11
 CPPFLAGS = $(addprefix -I, $(INC_DIR))
